@@ -10,7 +10,7 @@
 #include <type_traits>
 #include <iostream>
 #include <cstdint>
-
+#include <immintrin.h>
 namespace SPGrid{
 
 template<typename T,int width> struct SIMD_type;

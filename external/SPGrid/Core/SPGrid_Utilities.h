@@ -9,8 +9,9 @@
 #define __SPGrid_Utilities_h__
 
 #include <sstream>
-
+#ifndef HASWELL
 #define HASWELL
+#endif
 
 namespace SPGrid{
 
